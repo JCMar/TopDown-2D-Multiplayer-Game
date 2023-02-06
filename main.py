@@ -16,6 +16,7 @@ while run:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_ESCAPE:
                 run = False
+    screen.fill((0, 0, 0))
     player.draw()
     pygame.display.update()
     clock.tick(120)
